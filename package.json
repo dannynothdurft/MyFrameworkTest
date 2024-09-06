@@ -1,0 +1,14 @@
+{
+  "name": "myframeworktest",
+  "version": "1.0.0",
+  "description": "Ein einfaches selbstgemachtes Framework",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "parcel build public/index.html --dist-dir dist --public-url ./"
+  },
+  "devDependencies": {
+    "open": "^10.1.0",
+    "parcel": "^2.0.0"
+  }
+}
